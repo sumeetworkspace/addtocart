@@ -1,0 +1,14 @@
+
+.Cart h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+}
+.Cart {
+  padding: 20px;
+  background-color: #f0f0f0;  /* Light grey background */
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}

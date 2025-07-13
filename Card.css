@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.All {
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Pic {
+  height: 150px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.Pic:hover {
+  transform: scale(1.05);
+  /* z-index: 1; */
+}
+
+
+.CarImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+
+
+
+.info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+button{
+    margin-bottom: 5px;
+    height: 20px;
+    width: 100px;
+    align-self: center;
+    background: lightgray;
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+button:hover {
+    background: black;
+    color: white;
+}
